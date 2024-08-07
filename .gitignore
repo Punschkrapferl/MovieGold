@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+movie-gold-v1/node_modules
+movie-gold-v1/.pnp
+movie-gold-v1/.pnp.js
+
+# testing
+movie-gold-v1/coverage
+
+# production
+movie-gold-v1/build
+
+# misc
+movie-gold-v1/.DS_Store
+movie-gold-v1/.env.local
+movie-gold-v1/.env.development.local
+movie-gold-v1/.env.test.local
+movie-gold-v1/.env.production.local
+
+movie-gold-v1/npm-debug.log*
+movie-gold-v1/yarn-debug.log*
+movie-gold-v1/yarn-error.log*
+moviesAPI/HELP.md
+moviesAPI/target/
+moviesAPI/!.mvn/wrapper/maven-wrapper.jar
+moviesAPI/!**/src/main/**/target/
+moviesAPI/!**/src/test/**/target/
+
+### STS ###
+moviesAPI/.apt_generated
+moviesAPI/.classpath
+moviesAPI/.factorypath
+moviesAPI/.project
+moviesAPI/.settings
+moviesAPI/.springBeans
+moviesAPI/.sts4-cache
+
+### IntelliJ IDEA ###
+moviesAPI/.idea
+moviesAPI/*.iws
+moviesAPI/*.iml
+moviesAPI/*.ipr
+
+### NetBeans ###
+moviesAPI//nbproject/private/
+moviesAPI//nbbuild/
+moviesAPI//dist/
+moviesAPI//nbdist/
+moviesAPI//.nb-gradle/
+moviesAPI/build/
+moviesAPI/!**/src/main/**/build/
+moviesAPI/!**/src/test/**/build/
+
+### VS Code ###
+moviesAPI/.vscode/
+
+### ENV Files ###
+moviesAPI/.env
